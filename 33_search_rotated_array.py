@@ -17,4 +17,5 @@ class Solution:
                     hi = mid - 1
             else:
                 lo += 1
+                hi -= 1
         return -1
